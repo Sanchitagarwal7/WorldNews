@@ -111,7 +111,7 @@ function News(props){
 
             <div className="container">
                 <InfiniteScroll
-                dataLength={articles.length?articles.length:0}
+                dataLength={articles.length}
                 next={fetchMoreData}
                 hasMore={articles.length <= totalResults}
                 loader={<Spinner/>}>
