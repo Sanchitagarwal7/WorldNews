@@ -51,16 +51,16 @@ function News(props){
         
     // }
 
-    const handlePrevClick = async ()=>{
-        setpage(page-1);
-        // setState(state.page-1);
-        updateNews();
-    }
+    // const handlePrevClick = async ()=>{
+    //     setpage(page-1);
+    //     // setState(state.page-1);
+    //     updateNews();
+    // }
 
-    const handleNextClick = async ()=>{
-        setpage(page+1);
-        updateNews();
-    }
+    // const handleNextClick = async ()=>{
+    //     setpage(page+1);
+    //     updateNews();
+    // }
 
     function makeItCapital(){
         const word = props.category;
