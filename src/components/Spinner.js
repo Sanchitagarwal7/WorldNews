@@ -1,6 +1,6 @@
 import loading from '../loading.gif'
 
-import React, { Component } from 'react';
+import React from 'react';
 
 // class Spinner extends Component {
 //     render() {
