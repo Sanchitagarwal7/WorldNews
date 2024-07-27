@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState, Component} from 'react'
 import NewsItem from './NewsItem';
 import Spinner from './Spinner';
 import PropType from 'prop-types';
@@ -51,16 +51,16 @@ function News(props){
         
     // }
 
-    // const handlePrevClick = async ()=>{
-    //     setpage(page-1);
-    //     // setState(state.page-1);
-    //     updateNews();
-    // }
+    const handlePrevClick = async ()=>{
+        setpage(page-1);
+        // setState(state.page-1);
+        updateNews();
+    }
 
-    // const handleNextClick = async ()=>{
-    //     setpage(page+1);
-    //     updateNews();
-    // }
+    const handleNextClick = async ()=>{
+        setpage(page+1);
+        updateNews();
+    }
 
     function makeItCapital(){
         const word = props.category;
